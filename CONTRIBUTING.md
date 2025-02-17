@@ -4,9 +4,9 @@ We are pleased that you are thinking about contributing to Happen! This guide de
 
 ## Branching model
 
-The main development branch for upcoming releases is `master`.
-If in doubt, create your pull request against `master`.
-All new features, gem updates and bugfixes for the upcoming release should go into the `master` branch.
+The main development branch for upcoming releases is `main`.
+If in doubt, create your pull request against `main`.
+All new features, gem updates and bugfixes for the upcoming release should go into the `main` branch.
 
 ## Development flow
 
@@ -37,7 +37,7 @@ Bugfixes for one of the actively supported versions of Happen should be issued a
 Let a fix for the current version (called "fix" and the branch ideally being named `fix/XYZ`)
 should target `release/*` and a fix for the former version
 (called "back" and the branch ideally being named `back/XYZ`)
-should target `back/*`. We will try to merge fixes into master branch
+should target `back/*`. We will try to merge fixes into main branch
 but if that is a non-trivial task, we might ask you to create another PR for that.
 
 ## Inactive pull requests
