@@ -1,7 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
-@import "tailwindcss";
+@import 'tailwindcss';
 
 body {
-  	margin: 0; line-height: normal;
-    background-color: #0F172A;
+  margin: 0;
+  line-height: normal;
+  background-color: #101828;	
+  color: var(--foreground);
+}
+
+:root {
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --border: oklch(0.922 0 0);
+  --ring: oklch(0.87 0 0);
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --border: oklch(0.269 0 0);
+  --ring: oklch(0.439 0 0);
+}
+
+@layer base {
+
 }

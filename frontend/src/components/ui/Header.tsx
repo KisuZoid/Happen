@@ -3,8 +3,6 @@ import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-reac
 import styles from './Header.module.css';
 
 
-
-
 const Header:FunctionComponent = () => {
   	return (
     		<div className={styles.header}>

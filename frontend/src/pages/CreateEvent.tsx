@@ -1,12 +1,15 @@
 import { FC } from 'react';
+import CreateEvent from '../components/ui/CreateEvent';
+import Header from '../components/ui/Header';
 
-const CreateEvent: FC = () => {
+
+const CreateEventPage: FC = () => {
 	return (
 		<div>
-			<h1>Create Event Page</h1>
-			<p>Here you can create a new event!</p>
+			<Header/>
+			<CreateEvent/>
 		</div>
 	);
 };
 
-export default CreateEvent;
+export default CreateEventPage;
