@@ -8,7 +8,6 @@ The goal is to develop a platform for college students that allows them to inter
 
 ---
 # Backend by Kislay Anand 
-'Initial commits for backend development was performed in another repository. "https://github.com/KisuZoid/happen_temp"'
 
 ## 📌 Overview
 A **QR Code-based Event Attendance System** with JWT authentication, role-based access, and email verification. Users can register, generate QR codes for events, and mark attendance by scanning them. 
