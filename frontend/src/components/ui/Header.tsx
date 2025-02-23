@@ -1,5 +1,8 @@
 import { FunctionComponent } from 'react';
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
 import styles from './Header.module.css';
+
+
 
 
 const Header:FunctionComponent = () => {
@@ -24,16 +27,14 @@ const Header:FunctionComponent = () => {
           					</div> */}
         				</div>
         				<div className={styles.buttonsGroup1}>
-          					<div className={styles.button}>
-            						<div className={styles.textContainer}>
-              							<div className={styles.buttonText}>Log In</div>
-            						</div>
-          					</div>
-          					<div className={styles.button1}>
-            						<div className={styles.textContainer}>
-              							<div className={styles.buttonText}>Join Now</div>
-            						</div>
-          					</div>
+						<header>
+							<SignedOut>
+								<SignInButton />
+							</SignedOut>
+							<SignedIn>
+								<UserButton />
+							</SignedIn>
+						</header>
         				</div>
       			</div>
     		</div>);
